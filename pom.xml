@@ -12,6 +12,7 @@
         <maven.compiler.source>18</maven.compiler.source>
         <maven.compiler.target>18</maven.compiler.target>
         <metadata-extractor.version>2.17.0</metadata-extractor.version>
+        <apache-commons-io.version>2.11.0</apache-commons-io.version>
     </properties>
 
     <dependencies>
@@ -20,6 +21,11 @@
             <artifactId>metadata-extractor</artifactId>
             <version>${metadata-extractor.version}</version>
         </dependency>
-    </dependencies>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>${apache-commons-io.version}</version>
+        </dependency>
 
+    </dependencies>
 </project>
